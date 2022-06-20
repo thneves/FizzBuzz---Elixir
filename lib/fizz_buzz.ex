@@ -1,12 +1,5 @@
 defmodule FizzBuzz do
   def build(file_name) do
-    case File.read(file_name) do
-      {:ok, result} -> result
-      {:error, reason} -> reason
-    end
-  end
-
-  def build_pipe(file_name) do
     file_name
     |> File.read()
     |> handle_file_read()
