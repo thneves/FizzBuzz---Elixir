@@ -1,6 +1,15 @@
 # FizzBuzz
 
-**TODO: Add description**
+## Problem
+
+Given a list of numbers:
+- Multiples of 3 become "Fizz"
+- Multiples of 5 become "Buzz"
+- Multiples of 3 and 5 become "FizzBuzz"
+
+Info:
+- We gonna read the list from a file.
+- In case the file doesn't exist we have to thrown an error message.
 
 ## Installation
 
